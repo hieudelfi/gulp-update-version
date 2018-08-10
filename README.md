@@ -1,3 +1,5 @@
+
+> fork from [gulp-bump](https://github.com/stevelacy/gulp-bump) automatic change to semi-automatic
 # gulp-bump
 [![Build Status](https://travis-ci.org/stevelacy/gulp-bump.svg?branch=master)](https://travis-ci.org/stevelacy/gulp-bump)
 [![NPM version](https://badge.fury.io/js/gulp-bump.svg)](http://badge.fury.io/js/gulp-bump)

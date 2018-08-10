@@ -1,10 +1,10 @@
 {
-  "name": "gulp-bump",
+  "name": "gulp-update-version",
   "description": "Bump npm versions with Gulp (gulpjs.com)",
-  "version": "3.1.1",
-  "homepage": "http://github.com/stevelacy/gulp-bump",
-  "repository": "git://github.com/stevelacy/gulp-bump.git",
-  "author": "Steve Lacy <me@slacy.me> (http://slacy.me)",
+  "version": "1.0.0",
+  "homepage": "https://github.com/pq1949/gulp-update-version",
+  "repository": "git://github.com/pq1949/gulp-update-version.git",
+  "author": "pq1949 <pq1949leo@gmail.com>",
   "main": "./index.js",
   "dependencies": {
     "bump-regex": "^3.1.1",
