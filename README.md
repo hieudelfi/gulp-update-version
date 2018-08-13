@@ -1,6 +1,6 @@
 
 > fork from [gulp-bump](https://github.com/stevelacy/gulp-bump) automatic change to semi-automatic
-# gulp-bump
+# gulp-update-version
 [![Build Status](https://travis-ci.org/stevelacy/gulp-bump.svg?branch=master)](https://travis-ci.org/stevelacy/gulp-bump)
 [![NPM version](https://badge.fury.io/js/gulp-bump.svg)](http://badge.fury.io/js/gulp-bump)
 
@@ -34,18 +34,14 @@ If you are just requiring a bump for npm, consider using [npm version](https://d
 #### Install
 
 ```bash
-$ npm install gulp-bump --save
+$ npm install gulp-update-version --save-dev
 ```
-#### Breaking changes
-
-`gulp-bump` v2 supports Any valid semver in any filetype.
-  - v2 no longer creates the version [key] if it does not exist.
 
 ## Example
 
 ```js
 var gulp = require('gulp');
-var bump = require('gulp-bump');
+var bump = require('gulp-update-version');
 
 // Basic usage:
 // Will patch the version
